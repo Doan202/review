@@ -1,0 +1,212 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-weight: 400;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+}
+
+.home-main {
+  background-image: url(../images/bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+.home-main .logo-top a img {
+  margin: 0 auto;
+  width: 120px;
+  margin-top: 10px;
+  max-width: 100%;
+  height: auto;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+.home-main .video {
+  width: 90%;
+  padding: 2px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.home-main .video a img {
+  margin: 0 auto;
+  max-width: 100%;
+  height: auto;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+.home-main .playpc {
+  padding-left: 0;
+  padding-right: 0;
+  margin-left: -15px;
+  margin-right: -15px;
+  width: auto;
+}
+.home-main .playpc a {
+  margin: 0 auto;
+  width: 56%;
+}
+.home-main .playpc a img {
+  margin: 0 auto;
+  max-width: 100%;
+  height: auto;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+.home-main .playweb {
+  padding-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.home-main .playweb a img {
+  margin: 0 auto;
+  max-width: 100%;
+  height: auto;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.wrapper {
+  background-color: #2d0d0a;
+  color: rgb(188, 186, 185);
+}
+.wrapper .box {
+  width: 100%;
+  max-width: 640px;
+}
+.wrapper .box .header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.wrapper .box .header .header-logo {
+  width: 200px;
+}
+.wrapper .box .header .header-logo a img {
+  max-height: 100px;
+  margin: 0 50px;
+  max-width: 100%;
+  height: auto;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+.wrapper .box .header .header-menu {
+  width: 100%;
+}
+.wrapper .box .header .header-menu .menu ul {
+  margin-bottom: 0;
+}
+.wrapper .box .header .header-menu .menu ul li {
+  list-style: none;
+}
+.wrapper .box .header .header-menu .menu ul li a {
+  text-decoration: none;
+  padding-right: 20px;
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 14.4px;
+  font-weight: 700;
+}
+.wrapper .limit {
+  max-width: 770px;
+  width: 100%;
+}
+.wrapper .limit .content {
+  margin: 30px auto;
+  padding: 30px 0;
+}
+.wrapper .limit .content .row-main P a {
+  color: #f99705;
+}
+.wrapper .limit .content input {
+  width: 100%;
+  background: none;
+  padding: 10px 20px 10px 10px;
+  border: solid 1px #fff;
+  border-radius: 1px;
+  margin-bottom: 16px;
+}
+.wrapper .limit .content input::-moz-placeholder {
+  font-size: 120%;
+  font-weight: 500;
+  line-height: 1.45;
+}
+.wrapper .limit .content input::placeholder {
+  font-size: 120%;
+  font-weight: 500;
+  line-height: 1.45;
+}
+.wrapper .limit .content b {
+  color: #ffe9a4;
+  font-size: 25.6px;
+  font-weight: 900;
+}
+.wrapper .limit .content p {
+  margin-bottom: 20.8px;
+}
+.wrapper .limit .content p span {
+  color: rgb(249, 151, 5);
+}
+.wrapper .limit .content .list {
+  padding: 30px 0;
+}
+.wrapper .limit .content .list img {
+  width: 100%;
+}
+.wrapper .limit .content .list p {
+  color: rgb(188, 186, 185);
+}
+.wrapper .limit .content .list b {
+  color: rgb(255, 233, 164);
+  font-size: 20px;
+  font-style: italic;
+  font-family: "roboto";
+}
+.wrapper .limit .content .list .note {
+  padding: 0.4em;
+  font-size: 0.9em;
+  background: rgba(0, 0, 0, 0.05);
+  font-style: italic;
+  text-align: center;
+  display: block;
+  margin-bottom: 32px;
+}
+.wrapper .limit .content .list ul li span {
+  color: rgb(249, 151, 5);
+}
+
+.footer {
+  background-color: rgb(30, 15, 8);
+  padding: 30px 0 10px;
+}
+.footer .intro {
+  padding: 32px 0 10px;
+}
+.footer .intro p {
+  font-size: 14px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.footer .intro hr {
+  color: 255, 255, 255;
+}
+.footer .intro .news a {
+  line-height: 1.2;
+  display: block;
+  margin-bottom: 6px;
+  color: #f99705;
+}
+.footer .intro .news a img {
+  width: 30px;
+  height: 30px;
+  margin-right: 15px;
+}
+.footer .intro .copy-right {
+  text-align: center;
+  font-size: 12.6px;
+  padding: 10px 15px;
+}
+.footer .intro .copy-right strong {
+  font-weight: 700px;
+  font-size: 12.6px;
+}/*# sourceMappingURL=style.css.map */
